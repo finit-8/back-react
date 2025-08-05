@@ -1,6 +1,13 @@
+import './App.css'
+import React from 'react';
+import Colors from './docs/state/Colors';
+
 function App() {
   return (
-    <>🐶</>
+    // <> ==> React.Fragment (DOM트리임, Jsx요소를 랩해줌) 
+    <React.Fragment>
+      <Colors />
+    </React.Fragment>
   );
 }
 
