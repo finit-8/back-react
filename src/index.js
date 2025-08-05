@@ -7,7 +7,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <App />
+    <App />      
+    {/* 컴포넌트는 첫글자를 대문자로 한다 */}
   </>
 );
 
